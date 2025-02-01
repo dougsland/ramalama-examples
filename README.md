@@ -20,3 +20,9 @@ TinyLama
 ```console
 ramalama run tinyllama:latest
 ```
+
+[Moondream](https://github.com/vikhyat/moondream)
+
+```console
+ramalama run moondream:latest
+```
