@@ -11,7 +11,7 @@ ramalama run deepseek-r1:8b
 Granite-code from IBM, specific for writing source code, 3B params model, not the smartest at this time.
 
 ```console
-ramalama run granite-code:latest
+ramalama run granite-code:3b
 > How to write a hello world in python?
 ```
 
