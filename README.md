@@ -26,3 +26,8 @@ ramalama run tinyllama:latest
 ```console
 ramalama run moondream:latest
 ```
+
+huggingface
+```console
+ramalama run huggingface://afrideva/Tiny-Vicuna-1B-GGUF/tiny-vicuna-1b.q2_k.gguf
+```
