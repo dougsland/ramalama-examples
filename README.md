@@ -31,3 +31,11 @@ huggingface
 ```console
 ramalama run huggingface://afrideva/Tiny-Vicuna-1B-GGUF/tiny-vicuna-1b.q2_k.gguf
 ```
+
+Configuring Hugging Face as the default transport:
+You can also set Hugging Face as the default transport for RamaLama by setting an environment variable:
+```console
+export RAMALAMA_TRANSPORT=huggingface
+```
+After setting this, you can pull models using their short names if defined in a shortnames.conf file, or directly by their Hugging Face repository and model name without needing the huggingface:// prefix for every command.
+
