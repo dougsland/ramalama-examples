@@ -39,7 +39,7 @@ export RAMALAMA_TRANSPORT=huggingface
 ```
 After setting this, you can pull models using their short names if defined in a shortnames.conf file, or directly by their Hugging Face repository and model name without needing the huggingface:// prefix for every command.
 
-Installing CLI
+**Installing huggingface CLI**
 ```
 pip install -U "huggingface_hub[cli]"
 ```
