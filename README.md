@@ -1,38 +1,52 @@
 # ramalama-examples
 Just examples of usage.
 
-Deepseek
+---
+
+## Table of Contents
+1. [Overview](#overview)  
+2. [Running Deepseek](#running-deepseek)  
+3. [Running Granite-code (IBM)](#running-granite-code-ibm)  
+4. [Running TinyLama](#running-tinyllama)  
+5. [Running Moondream](#running-moondream)  
+6. [Running Tiny-Vicuna](#running-tiny-vicuna)  
+7. [Configuring Hugging Face as the Default Transport](#configuring-hugging-face-as-the-default-transport)  
+8. [Installing Hugging Face CLI](#installing-hugging-face-cli)
+
+
+**Running Deepseek**
 
 ```console
 ramalama run deepseek-r1:8b
 > What's deepseek?
 ```
 
-Granite-code from IBM, specific for writing source code, 3B params model, not the smartest at this time.
+**Running Granite-code** from IBM, specific for writing source code, 3B params model, not the smartest at this time.
 
 ```console
 ramalama run granite-code:3b
 > How to write a hello world in python?
 ```
 
-TinyLama
+**Running TinyLama**
 
 ```console
 ramalama run tinyllama:latest
 ```
 
+**Running Moondream**
 [Moondream](https://github.com/vikhyat/moondream)
 
 ```console
 ramalama run moondream:latest
 ```
 
-huggingface
+**Running Tiny-Vicuna**
 ```console
 ramalama run huggingface://afrideva/Tiny-Vicuna-1B-GGUF/tiny-vicuna-1b.q2_k.gguf
 ```
 
-Configuring Hugging Face as the default transport:
+**Configuring Hugging Face as the default transport**
 You can also set Hugging Face as the default transport for RamaLama by setting an environment variable:
 ```console
 export RAMALAMA_TRANSPORT=huggingface
