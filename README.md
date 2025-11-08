@@ -66,3 +66,6 @@ huggingface-cli login --token "$HUGGING_FACE_HUB_TOKEN"
 huggingface-cli whoami
 dougsland
 ```
+
+** QuickStart huggingface python and client**
+https://huggingface.co/docs/huggingface_hub/en/quick-start
