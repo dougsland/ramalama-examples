@@ -12,6 +12,7 @@ Just examples of usage.
 6. [Running Tiny-Vicuna](#running-tiny-vicuna)  
 7. [Configuring Hugging Face as the Default Transport](#configuring-hugging-face-as-the-default-transport)  
 8. [Installing Hugging Face CLI](#installing-hugging-face-cli)
+9. [Logging using official huggingface cli](logging-using-official-huggingface-clie)
 
 
 **Running Deepseek**
@@ -56,4 +57,12 @@ After setting this, you can pull models using their short names if defined in a 
 **Installing huggingface CLI**
 ```
 pip install -U "huggingface_hub[cli]"
+```
+
+**Logging using official huggingface cli**
+```
+source ~/.bashrc
+huggingface-cli login --token "$HUGGING_FACE_HUB_TOKEN"
+huggingface-cli whoami
+dougsland
 ```
