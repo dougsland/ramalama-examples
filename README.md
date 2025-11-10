@@ -13,6 +13,8 @@ Just examples of usage.
 7. [Configuring Hugging Face as the Default Transport](#configuring-hugging-face-as-the-default-transport)  
 8. [Installing Hugging Face CLI](#installing-hugging-face-cli)
 9. [Logging using official huggingface cli](logging-using-official-huggingface-clie)
+10. [List Models](list-models)
+11. [Delete Model](remove-model)
 
 
 **Running Deepseek**
@@ -69,3 +71,25 @@ dougsland
 
 **QuickStart huggingface python and client**  
 https://huggingface.co/docs/huggingface_hub/en/quick-start
+
+** List Models **
+
+```bash
+ramalama list
+NAME                                                                             MODIFIED     SIZE
+ollama://tinyllama/tinyllama:latest                                              55 years ago 0 B
+ollama://granite3.2/granite3.2:latest                                            6 months ago 4.6 GB
+ollama://llama2/llama2:latest                                                    6 months ago 3.56 GB
+ollama://library/granite4:tiny-h                                                 1 week ago   3.94 GB
+ollama://library/granite3.1-dense:latest                                         1 week ago   4.65 GB
+hf://TheBloke/Mistral-7B-Instruct-v0.2-GGUF/mistral-7b-instruct-v0.2.Q4_K_M.gguf 6 months ago 4.07 GB
+hf://TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF                                      3 hours ago  460.74 MB
+hf://HuggingFaceTB/smollm-135M-instruct-v0.2-Q8_0-GGUF                           1 week ago   138.1 MB
+https://huggingface.co/deepseek-ai/DeepSeek-OCR                                  4 days ago   129.92 KB
+```
+
+** Delete model **
+
+```bash
+$ ramalama rm ollama://tinyllama/tinyllama:latest
+```
