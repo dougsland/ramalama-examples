@@ -115,7 +115,7 @@ Trying to pull ollama://library/llava:7b ...
 $ what is in this image ./Lion.jpg
 ```
 
-## Upgrade via pip**
+## Upgrade via pip
 ```
 pip install --upgrade ramalama
 ```
