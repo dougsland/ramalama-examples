@@ -28,6 +28,7 @@ Just examples of usage.
 5. **Maintenance**
    - [Upgrade via pip](#upgrade-via-pip)
 
+<a name="running-deepseek"></a>
 **Running Deepseek**
 
 ```console
