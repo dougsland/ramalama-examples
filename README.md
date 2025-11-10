@@ -28,28 +28,27 @@ Just examples of usage.
 5. **Maintenance**
    - [Upgrade via pip](#upgrade-via-pip)
 
-<a name="running-deepseek"></a>
-**Running Deepseek**
+## Running Deepseek
 
 ```console
 ramalama run deepseek-r1:8b
 > What's deepseek?
 ```
 
-**Running Granite-code** from IBM, specific for writing source code, 3B params model, not the smartest at this time.
+## Running Granite-code** from IBM, specific for writing source code, 3B params model, not the smartest at this time.
 
 ```console
 ramalama run granite-code:3b
 > How to write a hello world in python?
 ```
 
-**Running TinyLama**
+## Running TinyLama
 
 ```console
 ramalama run tinyllama:latest
 ```
 
-**Running Mistral**
+## Running Mistral
 
 ```console
 $ ramalama run mistral
@@ -58,31 +57,31 @@ Trying to pull hf://lmstudio-community/Mistral-7B-Instruct-v0.3-GGUF/Mistral-7B-
 Downloading Mistral-7B-Instruct-v0.3-Q4_K_M.gguf
 ```
 
-**Running Moondream**
+## Running Moondream
 [Moondream](https://github.com/vikhyat/moondream)
 
 ```console
 ramalama run moondream:latest
 ```
 
-**Running Tiny-Vicuna**
+## Running Tiny-Vicuna
 ```console
 ramalama run huggingface://afrideva/Tiny-Vicuna-1B-GGUF/tiny-vicuna-1b.q2_k.gguf
 ```
 
-**Configuring Hugging Face as the default transport**
+## Configuring Hugging Face as the default transport
 You can also set Hugging Face as the default transport for RamaLama by setting an environment variable:
 ```console
 export RAMALAMA_TRANSPORT=huggingface
 ```
 After setting this, you can pull models using their short names if defined in a shortnames.conf file, or directly by their Hugging Face repository and model name without needing the huggingface:// prefix for every command.
 
-**Installing huggingface CLI**
+## Installing huggingface CLI
 ```
 pip install -U "huggingface_hub[cli]"
 ```
 
-**Logging using official huggingface cli**
+## Logging using official huggingface cli
 ```
 source ~/.bashrc
 huggingface-cli login --token "$HUGGING_FACE_HUB_TOKEN"
@@ -90,10 +89,10 @@ huggingface-cli whoami
 dougsland
 ```
 
-**QuickStart huggingface python and client**  
+##QuickStart huggingface python and client  
 https://huggingface.co/docs/huggingface_hub/en/quick-start
 
-**List Models**
+## List Models
 
 ```bash
 ramalama list
@@ -109,13 +108,13 @@ hf://HuggingFaceTB/smollm-135M-instruct-v0.2-Q8_0-GGUF                          
 https://huggingface.co/deepseek-ai/DeepSeek-OCR                                  4 days ago   129.92 KB
 ```
 
-**Delete model**
+## Delete model
 
 ```bash
 $ ramalama rm ollama://tinyllama/tinyllama:latest
 ```
 
-**Analyzing an image**
+## Analyzing an image
 
 ```bash
 cd /image/location
@@ -125,7 +124,7 @@ Trying to pull ollama://library/llava:7b ...
 $ what is in this image ./Lion.jpg
 ```
 
-**Upgrade via pip**
+## Upgrade via pip**
 ```
 pip install --upgrade ramalama
 ```
