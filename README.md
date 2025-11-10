@@ -135,7 +135,7 @@ $ podman machine rm podman-machine-default -f
 $ CONTAINERS_MACHINE_PROVIDER='libkrun' podman machine init --now  
 ```
 
-## Updating podman via brew  
+## Updating podman via brew
 
 ```console
 brew update
