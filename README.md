@@ -81,7 +81,7 @@ dougsland
 **QuickStart huggingface python and client**  
 https://huggingface.co/docs/huggingface_hub/en/quick-start
 
-** List Models **
+**List Models**
 
 ```bash
 ramalama list
@@ -97,8 +97,23 @@ hf://HuggingFaceTB/smollm-135M-instruct-v0.2-Q8_0-GGUF                          
 https://huggingface.co/deepseek-ai/DeepSeek-OCR                                  4 days ago   129.92 KB
 ```
 
-** Delete model **
+**Delete model**
 
 ```bash
 $ ramalama rm ollama://tinyllama/tinyllama:latest
+```
+
+**Analyzing an image**
+
+'''bash
+cd /image/location
+$ ramalama run llava:7b
+Downloading ollama://library/llava:7b ...
+Trying to pull ollama://library/llava:7b ...
+$ what is in this image ./Lion.jpg
+```
+
+**Upgrade via pip**
+```
+pip install --upgrade ramalama
 ```
