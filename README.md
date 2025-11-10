@@ -37,6 +37,15 @@ ramalama run granite-code:3b
 ramalama run tinyllama:latest
 ```
 
+**Running Mistral**
+
+```console
+$ ramalama run mistral
+Downloading hf://lmstudio-community/Mistral-7B-Instruct-v0.3-GGUF/Mistral-7B-Instruct-v0.3-Q4_K_M.gguf ...
+Trying to pull hf://lmstudio-community/Mistral-7B-Instruct-v0.3-GGUF/Mistral-7B-Instruct-v0.3-Q4_K_M.gguf ...
+Downloading Mistral-7B-Instruct-v0.3-Q4_K_M.gguf
+```
+
 **Running Moondream**
 [Moondream](https://github.com/vikhyat/moondream)
 
