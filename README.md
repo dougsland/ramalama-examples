@@ -5,7 +5,7 @@ Just examples of usage.
 # 📘 Table of Contents
 
 - [Running Deepseek](#running-deepseek)
-- [Running Granite-code (IBM)](#running-granite-code-from-ibm)
+- [Running Granite code IBM](#running-granite-code-from-ibm)
 - [Running TinyLama](#running-tinyllama)
 - [Running Mistral](#running-mistral)
 - [Running Moondream](#running-moondream)
@@ -26,7 +26,7 @@ ramalama run deepseek-r1:8b
 > What's deepseek?
 ```
 
-## Running Granite-code** from IBM, specific for writing source code, 3B params model, not the smartest at this time.
+## Running Granite code IBM
 
 ```console
 ramalama run granite-code:3b
@@ -107,6 +107,7 @@ $ ramalama rm ollama://tinyllama/tinyllama:latest
 
 ## Analyzing an image
 
+To be determined
 ```bash
 cd /image/location
 $ ramalama run llava:7b
