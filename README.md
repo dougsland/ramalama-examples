@@ -19,7 +19,7 @@ Just examples of usage.
 - [Analyzing an Image](#analyzing-an-image)
 - [Upgrade via pip](#upgrade-via-pip)
 - [Fix applehv gpu](#fix-applehv-gpu)
-- [Updating Podman via brew](updating-podman-via-brew)
+- [Updating Podman via brew](#updating-podman-via-brew)
   
 ## Running Deepseek
 
