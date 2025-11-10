@@ -5,7 +5,7 @@ Just examples of usage.
 # 📘 Table of Contents
 
 - [Running Deepseek](#running-deepseek)
-- [Running Granite code IBM](#running-granite-code-from-ibm)
+- [Running Granite code from IBM](#running-granite-code-from-ibm)
 - [Running TinyLama](#running-tinyllama)
 - [Running Mistral](#running-mistral)
 - [Running Moondream](#running-moondream)
@@ -26,7 +26,7 @@ ramalama run deepseek-r1:8b
 > What's deepseek?
 ```
 
-## Running Granite code IBM
+## Running Granite code from IBM
 
 ```console
 ramalama run granite-code:3b
