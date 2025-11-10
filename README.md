@@ -6,7 +6,7 @@ Just examples of usage.
 
 - [Running Deepseek](#running-deepseek)
 - [Running Granite code from IBM](#running-granite-code-from-ibm)
-- [Running TinyLama](#running-tinyllama)
+- [Running TinylLama](#running-tinyllama)
 - [Running Mistral](#running-mistral)
 - [Running Moondream](#running-moondream)
 - [Running Tiny-Vicuna](#running-tiny-vicuna)
@@ -33,7 +33,7 @@ ramalama run granite-code:3b
 > How to write a hello world in python?
 ```
 
-## Running TinyLama
+## Running TinylLama
 
 ```console
 ramalama run tinyllama:latest
