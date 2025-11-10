@@ -3,19 +3,31 @@ Just examples of usage.
 
 ---
 
-## Table of Contents
-1. [Overview](#overview)  
-2. [Running Deepseek](#running-deepseek)  
-3. [Running Granite-code (IBM)](#running-granite-code-ibm)  
-4. [Running TinyLama](#running-tinyllama)  
-5. [Running Moondream](#running-moondream)  
-6. [Running Tiny-Vicuna](#running-tiny-vicuna)  
-7. [Configuring Hugging Face as the Default Transport](#configuring-hugging-face-as-the-default-transport)  
-8. [Installing Hugging Face CLI](#installing-hugging-face-cli)
-9. [Logging using official huggingface cli](logging-using-official-huggingface-clie)
-10. [List Models](list-models)
-11. [Delete Model](remove-model)
+# 📘 Table of Contents
 
+1. **Running Models**
+   - [Running Deepseek](#running-deepseek)
+   - [Running Granite-code (IBM)](#running-granite-code-from-ibm)
+   - [Running TinyLama](#running-tinyllama)
+   - [Running Mistral](#running-mistral)
+   - [Running Moondream](#running-moondream)
+   - [Running Tiny-Vicuna](#running-tiny-vicuna)
+
+2. **Configuration and Setup**
+   - [Configuring Hugging Face as the Default Transport](#configuring-hugging-face-as-the-default-transport)
+   - [Installing Hugging Face CLI](#installing-huggingface-cli)
+   - [Logging Using Official Hugging Face CLI](#logging-using-official-huggingface-cli)
+   - [QuickStart: Hugging Face Python and Client](#quickstart-huggingface-python-and-client)
+
+3. **Managing Models**
+   - [List Models](#list-models)
+   - [Delete Model](#delete-model)
+
+4. **Using Additional Features**
+   - [Analyzing an Image](#analyzing-an-image)
+
+5. **Maintenance**
+   - [Upgrade via pip](#upgrade-via-pip)
 
 **Running Deepseek**
 
@@ -105,7 +117,7 @@ $ ramalama rm ollama://tinyllama/tinyllama:latest
 
 **Analyzing an image**
 
-'''bash
+```bash
 cd /image/location
 $ ramalama run llava:7b
 Downloading ollama://library/llava:7b ...
