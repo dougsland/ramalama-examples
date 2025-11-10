@@ -4,29 +4,20 @@ Just examples of usage.
 ---
 # 📘 Table of Contents
 
-1. **Running Models**
-   - [Running Deepseek](#running-deepseek)
-   - [Running Granite-code (IBM)](#running-granite-code-from-ibm)
-   - [Running TinyLama](#running-tinyllama)
-   - [Running Mistral](#running-mistral)
-   - [Running Moondream](#running-moondream)
-   - [Running Tiny-Vicuna](#running-tiny-vicuna)
-
-2. **Configuration and Setup**
-   - [Configuring Hugging Face as the Default Transport](#configuring-hugging-face-as-the-default-transport)
-   - [Installing Hugging Face CLI](#installing-hugging-face-cli)
-   - [Logging Using Official Hugging Face CLI](#logging-using-official-hugging-face-cli)
-   - [QuickStart: Hugging Face Python and Client](#quickstart-hugging-face-python-and-client)
-
-3. **Managing Models**
-   - [List Models](#list-models)
-   - [Delete Model](#delete-model)
-
-4. **Using Additional Features**
-   - [Analyzing an Image](#analyzing-an-image)
-
-5. **Maintenance**
-   - [Upgrade via pip](#upgrade-via-pip)
+- [Running Deepseek](#running-deepseek)
+- [Running Granite-code (IBM)](#running-granite-code-from-ibm)
+- [Running TinyLama](#running-tinyllama)
+- [Running Mistral](#running-mistral)
+- [Running Moondream](#running-moondream)
+- [Running Tiny-Vicuna](#running-tiny-vicuna)
+- [Configuring Hugging Face as the Default Transport](#configuring-hugging-face-as-the-default-transport)
+- [Installing Hugging Face CLI](#installing-hugging-face-cli)
+- [Logging Using Official Hugging Face CLI](#logging-using-official-hugging-face-cli)
+- [QuickStart: Hugging Face Python and Client](#quickstart-hugging-face-python-and-client)
+- [List Models](#list-models)
+- [Delete Model](#delete-model)
+- [Analyzing an Image](#analyzing-an-image)
+- [Upgrade via pip](#upgrade-via-pip)
 
 ## Running Deepseek
 
