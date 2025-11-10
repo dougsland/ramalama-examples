@@ -80,7 +80,7 @@ huggingface-cli whoami
 dougsland
 ```
 
-##QuickStart huggingface python and client  
+## QuickStart huggingface python and client  
 https://huggingface.co/docs/huggingface_hub/en/quick-start
 
 ## List Models
