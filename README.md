@@ -19,6 +19,8 @@ Just examples of usage.
 - [Analyzing an Image](#analyzing-an-image)
 - [Upgrade via pip](#upgrade-via-pip)
 - [Fix applehv gpu](#fix-applehv-gpu)
+- [updating podman via brew](updating-podman-via-brew)
+  
 ## Running Deepseek
 
 ```console
@@ -131,4 +133,10 @@ brew tap slp/krunkit
 brew install krunkit
 $ podman machine rm podman-machine-default -f
 $ CONTAINERS_MACHINE_PROVIDER='libkrun' podman machine init --now  
+```
+
+## Updating podman via brew 
+```
+brew update
+brew upgrade podman
 ```
