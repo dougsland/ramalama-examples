@@ -72,7 +72,7 @@ After setting this, you can pull models using their short names if defined in a 
 pip install -U "huggingface_hub[cli]"
 ```
 
-## Logging using official huggingface cli
+## Logging Using Official Hugging Face CLI
 ```
 source ~/.bashrc
 huggingface-cli login --token "$HUGGING_FACE_HUB_TOKEN"
