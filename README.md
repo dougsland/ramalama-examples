@@ -2,7 +2,6 @@
 Just examples of usage.
 
 ---
-
 # 📘 Table of Contents
 
 1. **Running Models**
@@ -15,9 +14,9 @@ Just examples of usage.
 
 2. **Configuration and Setup**
    - [Configuring Hugging Face as the Default Transport](#configuring-hugging-face-as-the-default-transport)
-   - [Installing Hugging Face CLI](#installing-huggingface-cli)
-   - [Logging Using Official Hugging Face CLI](#logging-using-official-huggingface-cli)
-   - [QuickStart: Hugging Face Python and Client](#quickstart-huggingface-python-and-client)
+   - [Installing Hugging Face CLI](#installing-hugging-face-cli)
+   - [Logging Using Official Hugging Face CLI](#logging-using-official-hugging-face-cli)
+   - [QuickStart: Hugging Face Python and Client](#quickstart-hugging-face-python-and-client)
 
 3. **Managing Models**
    - [List Models](#list-models)
