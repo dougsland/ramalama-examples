@@ -18,7 +18,7 @@ Just examples of usage.
 - [Delete Model](#delete-model)
 - [Analyzing an Image](#analyzing-an-image)
 - [Upgrade via pip](#upgrade-via-pip)
-
+- [Fix applehv gpu](#fix-applehv-gpu)
 ## Running Deepseek
 
 ```console
@@ -119,4 +119,16 @@ $ what is in this image ./Lion.jpg
 ## Upgrade via pip
 ```
 pip install --upgrade ramalama
+```
+
+## Fix applehv gpu 
+```
+Warning! Your VM podman-machine-default is using applehv, which does not support GPU. Only the provider libkrun has GPU support. See man ramalama-macos for more information. Do you want to proceed without GPU? (yes/no): ??
+```
+
+```
+brew tap slp/krunkit
+brew install krunkit
+$ podman machine rm podman-machine-default -f
+$ CONTAINERS_MACHINE_PROVIDER='libkrun' podman machine init --now  
 ```
