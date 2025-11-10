@@ -119,7 +119,7 @@ $ what is in this image ./Lion.jpg
 ```
 
 ## Upgrade via pip
-```
+```console
 pip install --upgrade ramalama
 ```
 
@@ -128,15 +128,16 @@ pip install --upgrade ramalama
 Warning! Your VM podman-machine-default is using applehv, which does not support GPU. Only the provider libkrun has GPU support. See man ramalama-macos for more information. Do you want to proceed without GPU? (yes/no): ??
 ```
 
-```
+```console
 brew tap slp/krunkit
 brew install krunkit
 $ podman machine rm podman-machine-default -f
 $ CONTAINERS_MACHINE_PROVIDER='libkrun' podman machine init --now  
 ```
 
-## Updating podman via brew
-```
+## Updating podman via brew  
+
+```console
 brew update
 brew upgrade podman
 ```
