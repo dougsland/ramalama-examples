@@ -20,6 +20,7 @@ Just examples of usage.
 - [Upgrade via pip](#upgrade-via-pip)
 - [Fix applehv gpu](#fix-applehv-gpu)
 - [Updating Podman via brew](#updating-podman-via-brew)
+- [Ramalama serve](#ramalama-serve)
   
 ## Running Deepseek
 
