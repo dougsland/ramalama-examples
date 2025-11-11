@@ -188,3 +188,17 @@ curl -X POST http://localhost:8080/v1/chat/completions \
         "temperature": 0.5
       }'
 ```
+
+JSON format
+
+```
+curl -X POST http://127.0.0.1:8081/v1/completions \
+  -H "Content-Type: application/json" \
+  -d '{
+        "model": "your_model_name",
+        "prompt": "Hello, how are you?",
+        "max_tokens": 50,
+        "temperature": 0.7,
+        "format": "json"
+      }'
+```
