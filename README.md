@@ -21,6 +21,7 @@ Just examples of usage.
 - [Fix applehv gpu](#fix-applehv-gpu)
 - [Updating Podman via brew](#updating-podman-via-brew)
 - [Ramalama serve](#ramalama-serve)
+- [RAG](#rag)
   
 ## Running Deepseek
 
@@ -202,4 +203,33 @@ curl -X POST http://127.0.0.1:8081/v1/completions \
         "temperature": 0.7,
         "format": "json"
       }'
+```
+
+## rag
+
+README.md:
+```
+# Douglas Schilling Landgraf
+
+Douglas Schilling Landgraf (or douglas), a super passionate computer engineer.
+```
+
+Generate the image with rag:
+```
+ramalama rag ./README.md localhost/dougsland_readme
+```
+
+list the image:
+```
+podman images
+REPOSITORY                         TAG          IMAGE ID      CREATED         SIZE
+localhost/dougsland_readme         latest       cd2fed6737e2  10 seconds ago  24.6 kB
+```
+
+Now looking to see if the model can provide me who is Douglas 
+
+```
+douglas@fedora:~$ ramalama run --rag localhost/dougsland_readme tinyllama
+🦭 > who is Douglas ?
+To answer the question, Douglas Schilling Landgraf is a super passionate computer engineer.
 ```
