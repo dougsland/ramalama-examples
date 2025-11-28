@@ -22,6 +22,7 @@ Just examples of usage.
 - [Updating Podman via brew](#updating-podman-via-brew)
 - [Ramalama serve](#ramalama-serve)
 - [RAG](#rag)
+- [Links](#links)
   
 ## Running Deepseek
 
@@ -233,3 +234,10 @@ douglas@fedora:~$ ramalama run --rag localhost/dougsland_readme tinyllama
 🦭 > who is Douglas ?
 To answer the question, Douglas Schilling Landgraf is a super passionate computer engineer.
 ```
+
+## Links
+How RamaLama makes working with AI models boring
+https://developers.redhat.com/articles/2024/11/22/how-ramalama-makes-working-ai-models-boring#
+
+Simplify AI data integration with RamaLama and RAG
+https://developers.redhat.com/articles/2025/04/03/simplify-ai-data-integration-ramalama-and-rag#
