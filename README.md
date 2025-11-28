@@ -236,8 +236,8 @@ To answer the question, Douglas Schilling Landgraf is a super passionate compute
 ```
 
 ## Links
-How RamaLama makes working with AI models boring
+How RamaLama makes working with AI models boring  
 https://developers.redhat.com/articles/2024/11/22/how-ramalama-makes-working-ai-models-boring#
 
-Simplify AI data integration with RamaLama and RAG
+Simplify AI data integration with RamaLama and RAG  
 https://developers.redhat.com/articles/2025/04/03/simplify-ai-data-integration-ramalama-and-rag#
